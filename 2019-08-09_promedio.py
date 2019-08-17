@@ -1,0 +1,10 @@
+print("Primera nota: ")
+pr = float(input())
+print("Segunda nota: ")
+se = float(input())
+print("Tercera nota: ")
+te = float(input())
+print("Cuarta nota: ")
+cu = float(input())
+promedio = round(( float (pr + se + te + cu))/4, 2)
+print(f"El promedio es: {promedio}") #otra forma de mostrar el resultado dentro de comillas
